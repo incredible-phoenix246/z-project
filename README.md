@@ -1,4 +1,4 @@
-# Zuriportfolio - Frontend
+# Project Z Coin - Frontend
 
 This is a `Nextjs, Typescript and Tailwindcss` project.
 
@@ -34,14 +34,9 @@ As you know by now that this is a typescript based project. Please all types mus
 
 # Commit Standards
 
-## Branches
-
-- **dev** -> pr this branch for everything `frontend` related
-- **main** -> **dont touch** this branch, this is what is running in production.
-
 ## Contributions
 
-zuriportfolio is open to contributions, but I recommend creating an issue or replying in a comment to let us know what you are working on first that way we don't overwrite each other.
+Project Z is open to contributions, but I recommend creating an issue or replying in a comment to let us know what you are working on first that way we don't overwrite each other.
 
 ## Contribution Guidelines
 
