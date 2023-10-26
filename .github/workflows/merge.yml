@@ -1,0 +1,23 @@
+---
+name: Z Project Frontend
+
+on:
+  # push:
+  #   branches:
+  #     - dev
+  pull_request:
+    branches: [main]
+  # schedule:
+  # cron job that runs every 2 minutes
+  # - cron: '* * * '
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: build app
+        run: |
+          yarn install
+          yarn build
